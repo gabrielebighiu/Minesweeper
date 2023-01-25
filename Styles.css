@@ -2,3 +2,25 @@ body {
     background-color: darkgrey;
     text-align: center;
 }
+
+#gameBoard {
+    background-color: lightgrey;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gameBoard div {
+    width: 30px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clicked-box {
+    background-color: darkgrey;
+}
