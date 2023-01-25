@@ -82,9 +82,6 @@ function createGameBoard() {
 }
 
 function setBombs() {
-    // bombCoordinates.push("2-2");
-    // bombCoordinates.push("3-3");
-
     let bombs = nrOfBombs;
     
     while (bombs > 0) {
